@@ -29,13 +29,4 @@ public class CensusAnalyser {
 					CensusAnalyserException.ExceptionType.CENSUS_FILE_PROBLEM);
 		}
 	}
-	public static void main(String[] args) throws CensusAnalyserException {
-		// TODO Auto-generated method stub
-		  final String INDIA_CENSUS_CSV_FILE_PATH = "C:\\Users\\ASHUTOSH NAWALE\\eclipse-workspace\\AdvancedJavaPrograming\\src\\main\\java\\com\\CensusIndia\\Program\\IndiaStateCensusData.csv";
-		  final String INDIAN_STATE_CSV_FILE = "C:\\Users\\ASHUTOSH NAWALE\\Desktop\\IndiaStateCode.csv";
-		  CensusAnalyser censusAnalyser = new CensusAnalyser();
-          int numOfRecords = censusAnalyser.loadIndiaCensusData(INDIA_CENSUS_CSV_FILE_PATH);
-		    System.out.println(numOfRecords);
-	}
-
 }
